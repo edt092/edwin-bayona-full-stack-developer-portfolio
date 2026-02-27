@@ -261,10 +261,10 @@
     </a>
 
     <div class="hidden md:flex items-center gap-7">
-      <a href="#about"    class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Sobre mí</a>
-      <a href="#skills"   class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Stack</a>
-      <a href="#projects" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Proyectos</a>
-      <a href="#contact"  class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors">Contacto</a>
+      <a href="#about"    class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors" data-i18n="nav_about">Sobre mí</a>
+      <a href="#skills"   class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors" data-i18n="nav_stack">Stack</a>
+      <a href="#projects" class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors" data-i18n="nav_projects">Proyectos</a>
+      <a href="#contact"  class="nav-link text-sm font-medium text-slate-400 hover:text-white transition-colors" data-i18n="nav_contact">Contacto</a>
     </div>
 
     <div class="flex items-center gap-3">
@@ -273,7 +273,7 @@
         <span class="material-symbols-outlined" style="font-size:18px">code</span> GitHub
       </a>
       <a href="#contact"
-         class="bg-primary text-zinc-950 text-sm font-bold px-5 py-2 rounded-full hover:brightness-110 transition-all glow-primary">
+         class="bg-primary text-zinc-950 text-sm font-bold px-5 py-2 rounded-full hover:brightness-110 transition-all glow-primary" data-i18n="nav_hire">
         Contrátame
       </a>
       <button id="menu-btn" class="md:hidden text-slate-400 hover:text-white transition-colors" aria-label="Menú">
@@ -284,10 +284,10 @@
 
   <!-- Mobile menu -->
   <div id="mobile-menu" class="menu-hidden md:hidden mx-4 mt-2 glass rounded-2xl p-4 flex flex-col gap-1">
-    <a href="#about"    class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors">Sobre mí</a>
-    <a href="#skills"   class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors">Stack</a>
-    <a href="#projects" class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors">Proyectos</a>
-    <a href="#contact"  class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors">Contacto</a>
+    <a href="#about"    class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors" data-i18n="nav_about">Sobre mí</a>
+    <a href="#skills"   class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors" data-i18n="nav_stack">Stack</a>
+    <a href="#projects" class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors" data-i18n="nav_projects">Proyectos</a>
+    <a href="#contact"  class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors" data-i18n="nav_contact">Contacto</a>
     <a href="https://github.com/edt092" target="_blank" class="text-sm font-medium text-slate-300 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors">GitHub</a>
   </div>
 </header>
@@ -303,7 +303,7 @@
     <!-- Status badge -->
     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-primary/20 text-primary text-xs font-semibold tracking-widest uppercase mb-8">
       <span class="size-2 rounded-full bg-emerald-400 animate-pulse"></span>
-      Disponible para proyectos · Bucaramanga, Colombia
+      <span data-i18n="hero_badge">Disponible para proyectos · Bucaramanga, Colombia</span>
     </div>
 
     <!-- Name -->
@@ -318,7 +318,7 @@
     </div>
 
     <!-- Tagline -->
-    <p class="text-slate-500 text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
+    <p class="text-slate-500 text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10" data-i18n="hero_desc">
       Construyo productos web de alto rendimiento con
       <span class="text-slate-300 font-medium">Next.js</span>,
       <span class="text-slate-300 font-medium">React</span> e integraciones de
@@ -330,12 +330,12 @@
       <a href="#projects"
          class="bg-primary text-background-dark h-12 px-8 rounded-xl font-bold hover:scale-105 hover:brightness-110 transition-all glow-primary inline-flex items-center gap-2">
         <span class="material-symbols-outlined text-base">work_outline</span>
-        Ver proyectos
+        <span data-i18n="btn_projects">Ver proyectos</span>
       </a>
       <a href="#contact"
          class="glass h-12 px-8 rounded-xl font-bold hover:bg-white/5 transition-colors inline-flex items-center gap-2">
         <span class="material-symbols-outlined text-base">mail_outline</span>
-        Contáctame
+        <span data-i18n="btn_contact">Contáctame</span>
       </a>
     </div>
   </div>
@@ -344,15 +344,15 @@
   <div class="relative z-10 mt-20 w-full max-w-2xl mx-auto grid grid-cols-3 gap-4">
     <div class="glass rounded-2xl p-5 text-center">
       <div class="text-3xl font-black text-primary mb-1">6+</div>
-      <div class="text-xs text-slate-500 font-medium">Proyectos entregados</div>
+      <div class="text-xs text-slate-500 font-medium" data-i18n="stat_projects">Proyectos entregados</div>
     </div>
     <div class="glass rounded-2xl p-5 text-center">
       <div class="text-3xl font-black text-accent-violet mb-1">2+</div>
-      <div class="text-xs text-slate-500 font-medium">Años de experiencia</div>
+      <div class="text-xs text-slate-500 font-medium" data-i18n="stat_years">Años de experiencia</div>
     </div>
     <div class="glass rounded-2xl p-5 text-center">
       <div class="text-3xl font-black text-primary mb-1">4+</div>
-      <div class="text-xs text-slate-500 font-medium">Clientes satisfechos</div>
+      <div class="text-xs text-slate-500 font-medium" data-i18n="stat_clients">Clientes satisfechos</div>
     </div>
   </div>
 
@@ -370,21 +370,21 @@
 
     <!-- Left: Bio -->
     <div>
-      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-4">Sobre mí</p>
-      <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-6 reveal">
+      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-4" data-i18n="section_about">Sobre mí</p>
+      <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-6 reveal" data-i18n="about_h2">
         Código que genera <span class="gradient-text">resultados reales</span>
       </h2>
       <div class="space-y-4 text-slate-400 leading-relaxed reveal reveal-d1">
-        <p>
+        <p data-i18n="about_p1">
           Soy un desarrollador Full-Stack con base en Bucaramanga, Colombia, enfocado en construir productos web
           que resuelven problemas de negocio concretos: desde tiendas e-commerce con editores visuales hasta
           plataformas con integraciones de IA generativa y visualizaciones 3D.
         </p>
-        <p>
+        <p data-i18n="about_p2">
           Mi approach combina arquitectura técnica sólida (Next.js App Router, TypeScript, APIs RESTful) con
           pensamiento de producto: cada decisión de UX/UI está orientada a conversiones, retención y performance.
         </p>
-        <p>
+        <p data-i18n="about_p3">
           Trabajo frecuentemente con negocios locales en Bucaramanga para llevar su presencia digital al siguiente
           nivel, entregando código mantenible, sitios bien posicionados en SEO y flujos de WhatsApp que convierten.
         </p>
@@ -402,29 +402,29 @@
 
     <!-- Right: Timeline -->
     <div class="reveal reveal-d2">
-      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-6">Trayectoria</p>
+      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-6" data-i18n="section_timeline">Trayectoria</p>
       <div class="relative border-l border-slate-800 ml-3 pl-8 space-y-8">
 
         <div class="relative timeline-dot">
           <div class="text-xs text-primary font-mono mb-1">2023</div>
-          <h3 class="font-bold text-slate-200 mb-1">Primeros proyectos freelance</h3>
-          <p class="text-sm text-slate-500 leading-relaxed">
+          <h3 class="font-bold text-slate-200 mb-1" data-i18n="tl_2023_title">Primeros proyectos freelance</h3>
+          <p class="text-sm text-slate-500 leading-relaxed" data-i18n="tl_2023_desc">
             Landing pages y catálogos estáticos para negocios locales en Bucaramanga. Primeros deploys en Netlify con Next.js y Tailwind CSS.
           </p>
         </div>
 
         <div class="relative timeline-dot">
           <div class="text-xs text-primary font-mono mb-1">2024</div>
-          <h3 class="font-bold text-slate-200 mb-1">E-commerce + editores visuales</h3>
-          <p class="text-sm text-slate-500 leading-relaxed">
+          <h3 class="font-bold text-slate-200 mb-1" data-i18n="tl_2024_title">E-commerce + editores visuales</h3>
+          <p class="text-sm text-slate-500 leading-relaxed" data-i18n="tl_2024_desc">
             Tiendas de productos promocionales con canvas interactivo (React-Konva), cotización por WhatsApp, optimización SEO y Framer Motion.
           </p>
         </div>
 
         <div class="relative timeline-dot">
           <div class="text-xs text-primary font-mono mb-1">2025</div>
-          <h3 class="font-bold text-slate-200 mb-1">IA generativa, 3D y pagos</h3>
-          <p class="text-sm text-slate-500 leading-relaxed">
+          <h3 class="font-bold text-slate-200 mb-1" data-i18n="tl_2025_title">IA generativa, 3D y pagos</h3>
+          <p class="text-sm text-slate-500 leading-relaxed" data-i18n="tl_2025_desc">
             Integración de Google Gemini AI, visualizaciones 3D con React Three Fiber, pasarelas de pago multi-país (Wompi + PayPhone) y notificaciones Telegram en tiempo real.
           </p>
         </div>
@@ -438,8 +438,8 @@
 <!-- ═══════════════════════════════════════════════════════ SKILLS -->
 <section id="skills" class="max-w-6xl mx-auto px-6 py-16">
   <div class="mb-10">
-    <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-3">Stack técnico</p>
-    <h2 class="text-3xl font-black tracking-tight reveal">Herramientas con las que construyo</h2>
+    <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-3" data-i18n="section_stack">Stack técnico</p>
+    <h2 class="text-3xl font-black tracking-tight reveal" data-i18n="skills_h2">Herramientas con las que construyo</h2>
   </div>
 
   <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -528,9 +528,9 @@
 <section id="projects" class="max-w-6xl mx-auto px-6 py-16">
   <div class="flex items-end justify-between mb-10">
     <div>
-      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-3">Proyectos</p>
-      <h2 class="text-3xl md:text-4xl font-black tracking-tight reveal">Trabajos seleccionados</h2>
-      <p class="text-slate-500 mt-2 reveal reveal-d1">Proyectos reales entregados a clientes y construidos para producción.</p>
+      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-3" data-i18n="section_projects">Proyectos</p>
+      <h2 class="text-3xl md:text-4xl font-black tracking-tight reveal" data-i18n="projects_h2">Trabajos seleccionados</h2>
+      <p class="text-slate-500 mt-2 reveal reveal-d1" data-i18n="projects_sub">Proyectos reales entregados a clientes y construidos para producción.</p>
     </div>
     <a href="https://github.com/edt092" target="_blank" rel="noopener"
        class="hidden md:flex items-center gap-2 text-primary text-sm font-bold hover:brightness-125 transition-all group">
@@ -767,12 +767,12 @@
     <div class="absolute bottom-0 left-0 w-72 h-72 bg-accent-violet/12 blur-[100px] -ml-20 -mb-20 pointer-events-none"></div>
 
     <div class="relative z-10">
-      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-4 justify-center">Contacto</p>
-      <h2 class="text-3xl md:text-5xl font-black tracking-tight mb-4">
+      <p class="section-label text-xs font-bold uppercase tracking-widest text-primary mb-4 justify-center" data-i18n="section_contact">Contacto</p>
+      <h2 class="text-3xl md:text-5xl font-black tracking-tight mb-4" data-i18n="contact_h2">
         Construyamos algo<br>
         <span class="gradient-text">extraordinario.</span>
       </h2>
-      <p class="text-slate-400 text-base md:text-lg max-w-lg mx-auto mb-10 leading-relaxed">
+      <p class="text-slate-400 text-base md:text-lg max-w-lg mx-auto mb-10 leading-relaxed" data-i18n="contact_desc">
         Estoy abierto a nuevos proyectos, colaboraciones y oportunidades laborales.
         Escríbeme y hablamos.
       </p>
@@ -828,7 +828,7 @@
         </svg>
         <span class="font-bold tracking-tight">Edwin Bayona</span>
       </div>
-      <p class="text-slate-600 text-sm max-w-xs">Full-Stack Web Developer · Next.js · React · IA · Bucaramanga, Colombia</p>
+      <p class="text-slate-600 text-sm max-w-xs" data-i18n="footer_desc">Full-Stack Web Developer · Next.js · React · IA · Bucaramanga, Colombia</p>
     </div>
 
     <div class="flex items-center gap-8">
@@ -880,7 +880,7 @@
 <!-- ═══════════════════════════════════════════════════════ JAVASCRIPT -->
 <script>
   /* ── Typing animation ────────────────────────────────────────── */
-  const roles = [
+  let roles = [
     "Full-Stack Web Developer",
     "Next.js & React Developer",
     "Growth Engineer",
@@ -972,6 +972,205 @@
   }, { threshold: 0.4 });
 
   sections.forEach(section => sectionObserver.observe(section));
+
+  /* ── Internationalization (i18n) & IP Detection ──────────────── */
+  const translations = {
+    es: {
+      nav_about: "Sobre mí",
+      nav_stack: "Stack",
+      nav_projects: "Proyectos",
+      nav_contact: "Contacto",
+      nav_hire: "Contrátame",
+      hero_badge: "Disponible para proyectos · Bucaramanga, Colombia",
+      hero_desc: "Construyo productos web de alto rendimiento con <span class='text-slate-300 font-medium'>Next.js</span>, <span class='text-slate-300 font-medium'>React</span> e integraciones de <span class='text-slate-300 font-medium'>IA generativa</span>.",
+      btn_projects: "Ver proyectos",
+      btn_contact: "Contáctame",
+      section_about: "Sobre mí",
+      section_stack: "Stack técnico",
+      section_projects: "Proyectos",
+      section_contact: "Contacto",
+      section_timeline: "Trayectoria",
+      stat_projects: "Proyectos entregados",
+      stat_years: "Años de experiencia",
+      stat_clients: "Clientes satisfechos",
+      about_h2: "Código que genera <span class='gradient-text'>resultados reales</span>",
+      about_p1: "Soy un desarrollador Full-Stack con base en Bucaramanga, Colombia, enfocado en construir productos web que resuelven problemas de negocio concretos: desde tiendas e-commerce con editores visuales hasta plataformas con integraciones de IA generativa y visualizaciones 3D.",
+      about_p2: "Mi approach combina arquitectura técnica sólida (Next.js App Router, TypeScript, APIs RESTful) con pensamiento de producto: cada decisión de UX/UI está orientada a conversiones, retención y performance.",
+      about_p3: "Trabajo frecuentemente con negocios locales en Bucaramanga para llevar su presencia digital al siguiente nivel, entregando código mantenible, sitios bien posicionados en SEO y flujos de WhatsApp que convierten.",
+      tl_2023_title: "Primeros proyectos freelance",
+      tl_2023_desc: "Landing pages y catálogos estáticos para negocios locales en Bucaramanga. Primeros deploys en Netlify con Next.js y Tailwind CSS.",
+      tl_2024_title: "E-commerce + editores visuales",
+      tl_2024_desc: "Tiendas de productos promocionales con canvas interactivo (React-Konva), cotización por WhatsApp, optimización SEO y Framer Motion.",
+      tl_2025_title: "IA generativa, 3D y pagos",
+      tl_2025_desc: "Integración de Google Gemini AI, visualizaciones 3D con React Three Fiber, pasarelas de pago multi-país (Wompi + PayPhone) y notificaciones Telegram en tiempo real.",
+      skills_h2: "Herramientas con las que construyo",
+      projects_h2: "Trabajos seleccionados",
+      projects_sub: "Proyectos reales entregados a clientes y construidos para producción.",
+      contact_h2: "Construyamos algo<br><span class='gradient-text'>extraordinario.</span>",
+      contact_desc: "Estoy abierto a nuevos proyectos, colaboraciones y oportunidades laborales. Escríbeme y hablamos.",
+      footer_desc: "Full-Stack Web Developer · Next.js · React · IA · Bucaramanga, Colombia",
+      roles: ["Full-Stack Web Developer", "Next.js & React Developer", "Growth Engineer", "Integrador de IA Generativa", "UI/UX Implementor"]
+    },
+    en: {
+      nav_about: "About",
+      nav_stack: "Stack",
+      nav_projects: "Projects",
+      nav_contact: "Contact",
+      nav_hire: "Hire Me",
+      hero_badge: "Open to work · Bucaramanga, Colombia",
+      hero_desc: "I build high-performance web products with <span class='text-slate-300 font-medium'>Next.js</span>, <span class='text-slate-300 font-medium'>React</span> and <span class='text-slate-300 font-medium'>Generative AI</span> integrations.",
+      btn_projects: "View Projects",
+      btn_contact: "Contact Me",
+      section_about: "About Me",
+      section_stack: "Tech Stack",
+      section_projects: "Projects",
+      section_contact: "Contact",
+      section_timeline: "Experience",
+      stat_projects: "Projects delivered",
+      stat_years: "Years of experience",
+      stat_clients: "Happy clients",
+      about_h2: "Code that generates <span class='gradient-text'>real results</span>",
+      about_p1: "I'm a Full-Stack developer based in Bucaramanga, Colombia, focused on building web products that solve real business problems: from e-commerce stores with visual editors to platforms with generative AI integrations and 3D visualizations.",
+      about_p2: "My approach combines solid technical architecture (Next.js App Router, TypeScript, RESTful APIs) with product thinking: every UX/UI decision is oriented toward conversions, retention and performance.",
+      about_p3: "I frequently work with local businesses in Bucaramanga to take their digital presence to the next level, delivering maintainable code, well-ranked SEO sites and WhatsApp flows that convert.",
+      tl_2023_title: "First freelance projects",
+      tl_2023_desc: "Static landing pages and catalogs for local businesses in Bucaramanga. First Netlify deployments with Next.js and Tailwind CSS.",
+      tl_2024_title: "E-commerce + visual editors",
+      tl_2024_desc: "Promotional product stores with interactive canvas (React-Konva), WhatsApp quotes, SEO optimization and Framer Motion animations.",
+      tl_2025_title: "Generative AI, 3D & payments",
+      tl_2025_desc: "Google Gemini AI integration, 3D visualizations with React Three Fiber, multi-country payment gateways (Wompi + PayPhone) and real-time Telegram notifications.",
+      skills_h2: "Tools I build with",
+      projects_h2: "Selected works",
+      projects_sub: "Real projects delivered to clients and built for production.",
+      contact_h2: "Let's build something<br><span class='gradient-text'>extraordinary.</span>",
+      contact_desc: "I'm open to new projects, collaborations and job opportunities. Reach out and let's talk.",
+      footer_desc: "Full-Stack Web Developer · Next.js · React · AI · Bucaramanga, Colombia",
+      roles: ["Full-Stack Web Developer", "Next.js & React Developer", "Growth Engineer", "Generative AI Integrator", "UI/UX Implementor"]
+    },
+    fr: {
+      nav_about: "À propos",
+      nav_stack: "Stack",
+      nav_projects: "Projets",
+      nav_contact: "Contact",
+      nav_hire: "Engagez-moi",
+      hero_badge: "Disponible pour projets · Bucaramanga, Colombie",
+      hero_desc: "Je construis des produits web performants avec <span class='text-slate-300 font-medium'>Next.js</span>, <span class='text-slate-300 font-medium'>React</span> et l'intégration d'<span class='text-slate-300 font-medium'>IA générative</span>.",
+      btn_projects: "Voir Projets",
+      btn_contact: "Contactez-moi",
+      section_about: "À propos",
+      section_stack: "Stack Technique",
+      section_projects: "Projets",
+      section_contact: "Contact",
+      section_timeline: "Parcours",
+      stat_projects: "Projets livrés",
+      stat_years: "Ans d'expérience",
+      stat_clients: "Clients satisfaits",
+      about_h2: "Du code qui génère <span class='gradient-text'>de vrais résultats</span>",
+      about_p1: "Je suis un développeur Full-Stack basé à Bucaramanga, Colombie, spécialisé dans la création de produits web qui résolvent des problèmes concrets : des boutiques e-commerce avec éditeurs visuels aux plateformes d'IA générative et visualisations 3D.",
+      about_p2: "Mon approche combine une architecture technique solide (Next.js App Router, TypeScript, APIs RESTful) avec une réflexion produit : chaque décision UX/UI est orientée vers les conversions, la rétention et la performance.",
+      about_p3: "Je travaille régulièrement avec des entreprises locales pour élever leur présence digitale, en livrant du code maintenable, des sites bien référencés et des flux WhatsApp qui convertissent.",
+      tl_2023_title: "Premiers projets freelance",
+      tl_2023_desc: "Landing pages et catalogues statiques pour des entreprises locales. Premiers déploiements Netlify avec Next.js et Tailwind CSS.",
+      tl_2024_title: "E-commerce + éditeurs visuels",
+      tl_2024_desc: "Boutiques de produits promotionnels avec canvas interactif (React-Konva), devis WhatsApp, optimisation SEO et Framer Motion.",
+      tl_2025_title: "IA générative, 3D et paiements",
+      tl_2025_desc: "Intégration Google Gemini AI, visualisations 3D avec React Three Fiber, passerelles de paiement multi-pays (Wompi + PayPhone) et notifications Telegram en temps réel.",
+      skills_h2: "Outils avec lesquels je construis",
+      projects_h2: "Travaux sélectionnés",
+      projects_sub: "Projets réels livrés à des clients et construits pour la production.",
+      contact_h2: "Construisons quelque chose<br><span class='gradient-text'>d'extraordinaire.</span>",
+      contact_desc: "Je suis ouvert à de nouveaux projets, collaborations et opportunités professionnelles. Écrivez-moi et discutons.",
+      footer_desc: "Développeur Web Full-Stack · Next.js · React · IA · Bucaramanga, Colombie",
+      roles: ["Développeur Web Full-Stack", "Développeur Next.js & React", "Ingénieur Growth", "Intégrateur IA Générative", "Implémenteur UI/UX"]
+    },
+    it: {
+      nav_about: "Chi sono",
+      nav_stack: "Stack",
+      nav_projects: "Progetti",
+      nav_contact: "Contatti",
+      nav_hire: "Assumimi",
+      hero_badge: "Disponibile per progetti · Bucaramanga, Colombia",
+      hero_desc: "Costruisco prodotti web ad alte prestazioni con <span class='text-slate-300 font-medium'>Next.js</span>, <span class='text-slate-300 font-medium'>React</span> e integrazioni di <span class='text-slate-300 font-medium'>IA generativa</span>.",
+      btn_projects: "Vedi Progetti",
+      btn_contact: "Contattami",
+      section_about: "Chi sono",
+      section_stack: "Stack Tecnico",
+      section_projects: "Progetti",
+      section_contact: "Contatti",
+      section_timeline: "Percorso",
+      stat_projects: "Progetti consegnati",
+      stat_years: "Anni di esperienza",
+      stat_clients: "Clienti soddisfatti",
+      about_h2: "Codice che genera <span class='gradient-text'>risultati reali</span>",
+      about_p1: "Sono uno sviluppatore Full-Stack con base a Bucaramanga, Colombia, specializzato nella creazione di prodotti web che risolvono problemi aziendali concreti: dai negozi e-commerce con editor visivi alle piattaforme con integrazioni di IA generativa e visualizzazioni 3D.",
+      about_p2: "Il mio approccio combina un'architettura tecnica solida (Next.js App Router, TypeScript, API RESTful) con il pensiero di prodotto: ogni decisione UX/UI è orientata verso conversioni, fidelizzazione e performance.",
+      about_p3: "Lavoro frequentemente con aziende locali per portare la loro presenza digitale al livello successivo, consegnando codice manutenibile, siti ben posizionati SEO e flussi WhatsApp che convertono.",
+      tl_2023_title: "Primi progetti freelance",
+      tl_2023_desc: "Landing page e cataloghi statici per aziende locali a Bucaramanga. Primi deploy su Netlify con Next.js e Tailwind CSS.",
+      tl_2024_title: "E-commerce + editor visivi",
+      tl_2024_desc: "Negozi di prodotti promozionali con canvas interattivo (React-Konva), preventivi WhatsApp, ottimizzazione SEO e Framer Motion.",
+      tl_2025_title: "IA generativa, 3D e pagamenti",
+      tl_2025_desc: "Integrazione Google Gemini AI, visualizzazioni 3D con React Three Fiber, gateway di pagamento multi-paese (Wompi + PayPhone) e notifiche Telegram in tempo reale.",
+      skills_h2: "Strumenti con cui costruisco",
+      projects_h2: "Lavori selezionati",
+      projects_sub: "Progetti reali consegnati a clienti e costruiti per la produzione.",
+      contact_h2: "Costruiamo qualcosa<br><span class='gradient-text'>di straordinario.</span>",
+      contact_desc: "Sono aperto a nuovi progetti, collaborazioni e opportunità lavorative. Scrivimi e parliamone.",
+      footer_desc: "Sviluppatore Web Full-Stack · Next.js · React · IA · Bucaramanga, Colombia",
+      roles: ["Sviluppatore Web Full-Stack", "Sviluppatore Next.js & React", "Growth Engineer", "Integratore IA Generativa", "Implementatore UI/UX"]
+    }
+  };
+
+  function setLanguage(lang) {
+    if (!translations[lang]) lang = 'es'; // Fallback
+    
+    // Update text elements
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (translations[lang][key]) {
+        el.innerHTML = translations[lang][key];
+      }
+    });
+
+    // Update typing animation roles
+    roles = translations[lang].roles;
+    document.documentElement.lang = lang;
+  }
+
+  async function detectAndApplyLanguage() {
+    // 1. Check if user already visited (optional: save to localStorage)
+    // 2. Fetch IP location
+    try {
+      const response = await fetch('https://ipapi.co/json/');
+      if (!response.ok) throw new Error('IP fetch failed');
+      
+      const data = await response.json();
+      const country = data.country_code; // US, GB, CA, FR, IT...
+      
+      let lang = 'es'; // Default
+      
+      // Map countries to languages
+      if (['US', 'GB', 'CA', 'AU', 'NZ', 'IE'].includes(country)) lang = 'en';
+      else if (['FR', 'BE', 'MC', 'CH'].includes(country)) lang = 'fr';
+      else if (['IT', 'SM'].includes(country)) lang = 'it';
+      
+      // Apply if not Spanish
+      if (lang !== 'es') {
+        setLanguage(lang);
+        console.log(`Language set to ${lang} based on country: ${country}`);
+      }
+    } catch (error) {
+      console.log('Geo-IP detection failed, falling back to browser language');
+      // Fallback: Browser language
+      const browserLang = navigator.language.slice(0, 2);
+      if (['en', 'fr', 'it'].includes(browserLang)) {
+        setLanguage(browserLang);
+      }
+    }
+  }
+
+  // Run detection on load
+  detectAndApplyLanguage();
 </script>
 
 </body>
