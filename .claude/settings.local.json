@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(# Read package.json for each project to get tech stacks echo \"\"=== PROMOGIMMICKS ===\"\" && cat \"\"E:/coding/proyectos-personales/archivados/promogimmicks/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== KSP ===\"\" && cat \"\"E:/coding/proyectos-personales/archivados/ksp-segunda-version/kspromocionales-tienda/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== EL FOGON ===\"\" && cat \"\"E:/coding/proyectos-personales/activos/el-fogon-gourmet-nancy-garcía/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== PAWART ===\"\" && cat \"\"E:/coding/proyectos-personales/activos/pawArtStudio/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== FRASES ===\"\" && cat \"\"E:/coding/proyectos-personales/archivados/github-portfolio-proyects/frases-random/frases-random-main/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== PARASOLES ===\"\" && cat \"\"E:/coding/proyectos-personales/activos/parasoles-domos/web/package.json\"\")",
+      "Bash(grep:*)"
+    ]
+  }
+}
