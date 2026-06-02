@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(# Read package.json for each project to get tech stacks echo \"\"=== PROMOGIMMICKS ===\"\" && cat \"\"E:/coding/proyectos-personales/archivados/promogimmicks/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== KSP ===\"\" && cat \"\"E:/coding/proyectos-personales/archivados/ksp-segunda-version/kspromocionales-tienda/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== EL FOGON ===\"\" && cat \"\"E:/coding/proyectos-personales/activos/el-fogon-gourmet-nancy-garcía/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== PAWART ===\"\" && cat \"\"E:/coding/proyectos-personales/activos/pawArtStudio/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== FRASES ===\"\" && cat \"\"E:/coding/proyectos-personales/archivados/github-portfolio-proyects/frases-random/frases-random-main/package.json\"\" | grep -E ''\"\"name\"\"|\"\"description\"\"|\"\"dependencies\"\"|\"\"devDependencies\"\"'' -A 30 | head -50 echo \"\"=== PARASOLES ===\"\" && cat \"\"E:/coding/proyectos-personales/activos/parasoles-domos/web/package.json\"\")",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(git:*)",
+      "WebFetch(domain:edwinbayonaitmanager.online)",
+      "Bash(python \"C:\\\\Users\\\\Dagon\\\\.claude\\\\skills\\\\seo\\\\scripts\\\\drift_history.py\" \"https://edwinbayonaitmanager.online/\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python \"C:\\\\Users\\\\Dagon\\\\.claude\\\\skills\\\\seo\\\\scripts\\\\google_auth.py\" --check)",
+      "Bash(python \"C:\\\\Users\\\\Dagon\\\\.claude\\\\skills\\\\seo\\\\scripts\\\\backlinks_auth.py\" --check)",
+      "Bash(dir E:\\\\coding\\\\proyectos-personales\\\\archivados\\\\portfolio-web-dev-edwin-bayona *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Dagon\\\\Downloads\" | Where-Object { $_.Name -match \"arquitectura|seo|edwin\" } | Select-Object Name, LastWriteTime)"
     ]
   }
 }

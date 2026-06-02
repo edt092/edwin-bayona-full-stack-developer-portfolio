@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#0d1f35"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+
+  <!-- Electric blue border -->
+  <rect width="32" height="32" rx="7" fill="none" stroke="#00d4ff" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Bold E -->
+  <text
+    x="16"
+    y="23.5"
+    font-family="Inter, Arial Black, sans-serif"
+    font-weight="900"
+    font-size="23"
+    text-anchor="middle"
+    fill="#00d4ff"
+    filter="url(#glow)"
+  >E</text>
+</svg>

@@ -1,0 +1,34 @@
+# Edwin Bayona — Full-Stack Web Developer
+
+Edwin Bayona is a freelance full-stack web developer specializing in Next.js, React,
+TypeScript, generative AI integrations (Google Gemini), 3D web visualizations
+(React Three Fiber), e-commerce development, technical SEO, and WhatsApp automation.
+
+## Services
+- E-commerce platforms with visual editors and AI-generated content
+- Generative AI integrations (Gemini API, image generation, conversational flows)
+- 3D product visualization for web (React Three Fiber / Three.js)
+- Multi-country payment gateway integration (Wompi, PayPhone)
+- WhatsApp automation and conversion flows
+- Technical SEO optimization
+- Corporate landing pages with high conversion rates
+
+## Featured Projects
+- PawArtStudio: AI-powered pet art e-commerce with 3D product preview, Gemini AI image
+  generation, and multi-country payments (Wompi + PayPhone)
+- PromoGimmicks: Digital catalog of 1,000+ customizable promotional products
+- KS Promocionales: Promotional products store with interactive visual logo editor (React-Konva)
+- El Fogon Gourmet: High-conversion restaurant landing page with WhatsApp CTA
+- Parasoles y Domos San Andres: Corporate platform with SEO optimization
+
+## Tech Stack
+Next.js 14/15/16, React 18/19, TypeScript 5.x, Tailwind CSS 3/4, Node.js,
+Google Gemini AI, React Three Fiber, React-Konva, Framer Motion, PostgreSQL,
+Wompi, PayPhone, Telegram Bot API, Vite 7
+
+## Contact
+- Email: info@edwinbayonaitmanager.online
+- WhatsApp: +573116462342
+- LinkedIn: https://www.linkedin.com/in/edwin-bayona/
+- GitHub: https://github.com/edt092
+- Available for: freelance projects, collaborations, full-time roles
