@@ -5,7 +5,15 @@
       "Bash(grep:*)",
       "Bash(git:*)",
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Dagon\\\\Downloads\" -Recurse -Filter \"*edwin*\")",
-      "Bash(Select-Object FullName)"
+      "Bash(Select-Object FullName)",
+      "WebFetch(domain:edwinbayonaitmanager.online)",
+      "Bash(python \"C:\\\\Users\\\\Dagon\\\\.claude\\\\skills\\\\seo\\\\scripts\\\\drift_history.py\" \"https://edwinbayonaitmanager.online/\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python \"C:\\\\Users\\\\Dagon\\\\.claude\\\\skills\\\\seo\\\\scripts\\\\google_auth.py\" --check)",
+      "Bash(python \"C:\\\\Users\\\\Dagon\\\\.claude\\\\skills\\\\seo\\\\scripts\\\\backlinks_auth.py\" --check)",
+      "Bash(dir E:\\\\coding\\\\proyectos-personales\\\\archivados\\\\portfolio-web-dev-edwin-bayona *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Dagon\\\\Downloads\" | Where-Object { $_.Name -match \"arquitectura|seo|edwin\" } | Select-Object Name, LastWriteTime)",
+      "PowerShell(Get-ChildItem \"E:\\\\coding\\\\proyectos-personales\\\\archivados\\\\portfolio-web-dev-edwin-bayona\\\\assets\" | Where-Object { $_.Name -match \"favicon|apple\" })"
     ]
   }
 }
